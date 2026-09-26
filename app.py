@@ -234,7 +234,7 @@ df_length = st.number_input(
     label=f"Quantidade de linhas (max: {qtd_row})",
     min_value=1,
     max_value=qtd_row,
-    value=1,
+    value=10,
     key="qdt_linhas"
 )
 
